@@ -1,0 +1,233 @@
+@charset "utf-8";
+/*--nav-style-start--*/
+#nav .fixed .f-nav{
+	position:fixed;
+	right:10px;
+	bottom:20px;
+	width:40px;
+	height:40px;
+	border-radius:100%;
+	background-color:#333;
+}
+#nav .fixed .f-nav i{
+	position:absolute;
+	top:18.5px;
+	left:13.5px;
+	width:13px;
+	height:7px;
+	background-image:url("../images/icon2.png");
+	background-repeat:no-repeat;
+	background-position:-93px 0px;
+}
+/*--nav-head-style-start--*/
+#nav{
+	width:1200px;
+	margin:0 auto;
+	background-color:#fff;
+	font-size:12px;
+} 
+#nav .n-head{
+	height:30px;
+	line-height:30px;
+}
+#nav .n-head li{
+	position:relative;
+	padding:0 8px;
+}
+#nav li.pl-no{
+	padding-left:0;
+}
+#nav .n-h-left > ul > li + li:before,#nav .n-h-right > ul > li + li:before{
+	position:absolute;
+	left:0;
+	top:8px;
+	content:"";
+	width:1px;
+	height:12px;
+	line-height:12px;
+	background-color:#a4a4a4;
+}
+#nav a{
+	color:#a4a4a4;
+}
+#nav a:hover{
+	color:#ca151d;
+}
+div.n-h-left li .triangle{
+	margin-left:6px;
+    border-left: 4px solid transparent;
+	border-right: 4px solid transparent;
+    border-top: 6px solid #bcbcbc;
+	display:inline-block;
+}
+.n-h-left div.select{
+	position:relative;
+	background-color:#fff;
+	z-index:90;
+}
+.n-h-left .more:hover{
+	box-shadow:0 2px 6px 0 rgba(121,121,121,0.26);
+}
+.n-h-left .more:hover .message{
+	display:block;
+} 
+.n-h-left .message{
+	position:absolute;
+	top:26px;
+	right:0px;
+	width:154px;
+	height:260px;
+	padding:0 8px;
+	text-align:center;
+	background-color:#fff;
+	z-index:20;
+	box-shadow:0 2px 6px 0 rgba(121,121,121,0.26);
+	display:none;
+}
+.n-h-left .message a{
+	color:#3a3a3a;
+}
+.n-h-left .message li{
+	height:32px;
+}
+.n-h-left .message li img{
+	padding-top:22px;
+}
+.n-h-left .message .downline{position:relative;}
+.n-h-left .message .downline:after{
+	position:absolute;
+	bottom:0;
+	left:0;
+	content:"";
+	width:100%;
+	height:1px;
+	background-color:#ccc;
+}
+
+/*--nav-head-right-style-start--*/
+#nav li.r-cart{padding-right:0;}
+div.n-h-right .cart{
+	font-size:12px;
+	margin-right:6px;
+}
+.n-h-right .r-cart{
+	position:relative;
+	z-index:90;
+}
+.n-h-right .carts{
+	position:absolute;
+	top:27px;
+	right:0;
+	width:440px;
+	padding:50px 0;
+	text-align:center;
+	background-color:#fff;
+	box-shadow:0 2px 6px 0 rgba(121,121,121,0.26);
+	z-index:20;
+	display:none;
+}
+.n-h-right .r-cart:hover{box-shadow:0 2px 6px 0 rgba(121,121,121,0.26);}
+.n-h-right .r-cart:hover .carts{
+	display:block;
+}
+.n-h-right .carts img{
+	width:100px;
+	height:100px;
+}
+.n-h-right .carts p{
+	margin-top:16px;
+	font-size:14px;
+	color:#a4a4a4;
+}
+
+/*--nav-head-style-end--*/
+
+/*--nav-content-style-start--*/
+.n-content{
+	position:relative;
+	width:1200px;
+	height:50px;
+	margin:0 auto;
+	padding:10px 0;
+}
+.n-content div{
+	float:left;
+}
+.n-content .right{
+	position:absolute;
+	right:0px;
+}
+.n-content .logo{
+	margin-right:40px;
+	vertical-align:middle;
+}
+.n-content .nav{
+	width:550px;
+	margin:0 auto;
+}
+.n-content .nav li + li{
+	margin-left:20px;
+}
+div.n-content .nav li{position:relative;}
+.n-content .nav li a{
+	line-height:50px;
+	color:#000;
+	font-size:16px;
+	vertical-align:middle;
+	
+}/* 
+.n-content .nav li a:before{
+	position:absolute;
+	bottom:3px;
+	content:"";
+	width:100%;
+	height:2px;
+	background:#ca151d;
+	display:block;
+} */
+.n-content .nav li a:before:hover{
+	display:block;
+}
+.n-content .search .input{
+	width:330px;
+	line-height:50px;
+	outline:none;
+	border:none;
+	border-bottom:1px solid #a4a4a4;
+}
+.n-content .search .sub{
+	position:absolute;
+	top:20px;
+	right:0px;
+	width:20px;
+	height:20px;
+	display:block;
+	background:url("../images/search.png") -60px -44px;
+	border:none;
+	outline:none;
+}
+.n-content .search .s-message{
+	position:absolute;
+	top:20px;
+	right:40px;
+}
+.n-content .search .s-message a{
+	padding:2px;
+	background-color:#e6e6e6;
+	font-size:12px;
+	color:#a4a4a4;
+}
+.n-content .search .s-message a + a{
+	margin-left:4px;
+}
+.nav .search input:focus ~ .s-message{
+	display:none;
+}
+
+.nav .n-header a:hover{
+	color:#ca151d;
+}
+.nav .n-content a:hover{
+	color:#ca141d;
+}
+/*--nav-style-end--*/

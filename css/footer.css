@@ -1,0 +1,167 @@
+@charset "UTF-8";
+div.footer{
+	/* padding-top:65px; */
+	background-color:#f0f0f0;
+}
+
+/*--footer-head-style-start--*/
+
+div.footer div.f-head {
+	width:1200px;
+	margin:0 auto;
+	padding:46px 0;
+}
+div.footer div.f-head li{
+	width:300px;
+	height:47px;
+	line-height:47px;
+	vertical-align:middle;
+}
+div.footer div.f-head li a{
+	font-size:18px;
+	color:#333;
+}
+div.footer div.f-head i{
+	display:inline-block;
+	width:47px;
+	height:47px;
+	background:url("../images/icon-common.png") no-repeat 0px -151px;
+	vertical-align:middle;
+}
+div.footer div.f-head .f-h2 i{
+	background:url("../images/icon-common.png") no-repeat -47px -151px;
+}
+div.footer div.f-head .f-h3 i{
+	background:url("../images/icon-common.png") no-repeat -93px -151px;
+}
+div.footer div.f-head .f-h4 i{
+	background:url("../images/icon-common.png") no-repeat -141px -151px;
+}
+
+
+/*--footer-main-content-style-start--*/
+
+div.footer div.f-main {
+	position:relative;
+	width:1200px;
+	margin:0 auto;
+	padding:40px 0 20px;
+	border-top:1px solid #eaeaea;
+}
+div.footer div.f-main ul{
+	margin:36px 0 18px;
+}
+div.f-main dl,div.f-main > div{
+	float:left;
+}
+
+div.f-main div.f-left{
+	width:82%;
+}
+div.f-main div.f-left dl{
+	width:16.66667%;
+}
+div.f-main div.f-left dl dt{
+	margin-bottom:12px;
+	font-size:14px;
+	color:#3a3a3a;
+}
+div.f-main div.f-left dl dd{
+	font-size:12px;
+	color:#666;
+	margin-bottom:6px;
+}
+div.f-main div.f-left dd:hover{
+	color:#ca141d;
+}
+div.f-main div.right{
+	width:18%;
+}
+div.f-main div.f-right dl dd a p{
+	color:#ca141d;
+}
+div.f-main  dl:before{
+	position:absolute;
+	content:"";
+	top:30px;
+	width:25px;
+	height:2px;
+	background-color:#4c5c6c;
+}
+div.footer .f-main .right dd{
+	width:161px;
+	height:35px;
+	margin-top:10px;
+	background-color:#fff;
+	border-radius:4px;
+	text-align:center;
+	vertical-align:middle;
+	font-size:14px;
+	line-height:35px;
+}
+div.footer .f-main .right dd a{
+	color:#ca151d;
+}
+div.footer .f-main i.bg1{
+	display:inline-block;
+	width:22px;
+	height:20px;
+	background-image:url("../images/icon2.png");
+	background-repeat:no-repeat;
+	background-position:-303px 0px;
+	vertical-align:middle;
+}
+div.footer .f-mian i.bg2{
+	display:inline-block;
+	width:22px;
+	height:20px;
+	background-image:url("../images/icon2.png");
+	background-repeat:no-repeat;
+	background-position:-303px 0px;
+	vertical-align:middle;
+}
+
+div.bot{
+	width:100%;
+	background-color:#e6e6e6;
+}
+div.bot div.f-bot{
+	width:1200px;
+	margin:0 auto;
+	padding:26px 0 34px;
+	color:#a4a4a4;
+	font-size:12px;
+}
+div.bot div.f-bot a{
+	color:#a4a4a4;
+}
+div.bot div.f-bot a:hover{
+	color:#ca151d;
+}
+div.bot div.f-bot div.b-left i{
+	display:inline-block;
+	width:80px;
+	height:20px;
+	background:url("../images/icon-common.png") no-repeat -100px -42px;
+	font-size:12px;
+	vertical-align:middle;
+}
+div.bot div.f-bot div.b-left .f-ph{
+	padding:18px 38px 0 0;
+}
+div.bot div.f-bot p{
+	vertical-align:middle;
+}
+div.footer div.f-bot > div{
+	float:left;
+}
+div.footer div.f-bot div.b-left > div{
+	float:left;
+}
+div.footer div.f-bot > .b-right{
+	padding-top:10px;
+	float:right;
+}
+div.footer div.f-bot .after-line{
+	border-right:1px solid #a4a4a4;
+}
